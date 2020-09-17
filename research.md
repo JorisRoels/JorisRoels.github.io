@@ -1,10 +1,6 @@
 ## Research
 
-<!-- blank line -->
-<figure class="video_container">
-  <iframe src="https://youtu.be/Qs4qcbBAD9k" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
-<!-- blank line -->
+[![Audi R8](http://img.youtube.com/vi/KOxbO0EI4MA/0.jpg)](https://www.youtube.com/watch?v=KOxbO0EI4MA "Audi R8")
 
 # Publications
 
