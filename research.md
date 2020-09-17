@@ -1,6 +1,6 @@
 ## Research
 
-[![Audi R8](http://img.youtube.com/vi/KOxbO0EI4MA/0.jpg)](https://www.youtube.com/watch?v=KOxbO0EI4MA "Audi R8")
+[![Automated segmentation of mitochondria in an electron micrograph](http://img.youtube.com/vi/Qs4qcbBAD9k/0.jpg)](http://www.youtube.com/watch?v=Qs4qcbBAD9k "Automated segmentation of mitochondria in an electron micrograph")
 
 # Publications
 
