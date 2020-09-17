@@ -1,3 +1,5 @@
+([Home](index)) - ([Research](research)) - ([Software](software)) - ([Workshops](workshops)) - ([Contact](contact))
+
 ## About me
 
 I obtained my Bachelor's degree in Mathematics and Master's degree in Mathematical Computer Science in 2012 and 2014, respectively, at Ghent University. I pursued a PhD at the IPI research group at Ghent University and the DAMBI research group at VIB and obtained my degree in 2019. I am currently working as a postdoctoral researcher at VIB. 
