@@ -3,7 +3,7 @@
 [![Automated segmentation of mitochondria in an electron micrograph](http://img.youtube.com/vi/Qs4qcbBAD9k/0.jpg)](http://www.youtube.com/watch?v=Qs4qcbBAD9k "Automated segmentation of mitochondria in an electron micrograph")
 [![Automated segmentation of endoplasmic reticulum in an electron micrograph](http://img.youtube.com/vi/Jd1ayi_f788/0.jpg)](http://www.youtube.com/watch?v=Jd1ayi_f788 "Automated segmentation of endoplasmic reticulum in an electron micrograph")
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](http://img.youtube.com/vi/Qs4qcbBAD9k/0.jpg "Logo Title Text 1")
 
 # Publications
 
