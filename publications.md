@@ -1,4 +1,4 @@
-[Home](index) - [Research](research))- [Software](software) - [Workshops](workshops) - [Contact](contact)
+[Home](index) - [Research](research)- [Software](software) - [Workshops](workshops) - [Contact](contact)
 
 # Publications
 
