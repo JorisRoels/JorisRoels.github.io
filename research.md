@@ -17,7 +17,7 @@ Image segmentation is the fundamental task of assigning class labels to each pix
 In domain adaptation, we consider a (relatively large) labeled source dataset and a target dataset with no or very few label. The goal is to maximize the predictive performance on the target dataset based on all the available labels. 
 
 I developed a new domain adaptive architecture that is able to adapt state-of-the-art encoder-decoder models to alternative target domains. 
-![Domain adaptive segmentation](domain-adaptive-segmentation.png "Domain adaptive segmentation")
+![Domain adaptive segmentation](domain-adaptive segmentation.png "Domain adaptive segmentation")
 
 Relevant work:
 - Roels, J., Hennies, J., Saeys, Y., Philips, W., & Kreshuk, A. (2019). Domain Adaptive Segmentation in Volume Electron Microscopy Imaging. IEEE International Symposium on Biomedical Imaging. https://doi.org/arXiv:1810.09734v1
