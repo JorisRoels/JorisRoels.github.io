@@ -17,7 +17,7 @@ Image segmentation is the fundamental task of assigning class labels to each pix
 In domain adaptation, we consider a (relatively large) labeled source dataset and a target dataset with no or very few label. The goal is to maximize the predictive performance on the target dataset based on all the available labels. 
 
 I developed a new domain adaptive architecture that is able to adapt state-of-the-art encoder-decoder models to alternative target domains. The image below illustrates the effect of no domain adaptation (left), a state-of-the-art two-stream architecture (middle) and our proposed network (right). 
-![Domain adaptive segmentation](domain-adaptive-segmentation.png "Domain adaptive segmentation"){:height="45%" width="45%"}
+![Domain adaptive segmentation](domain-adaptive-segmentation.png "Domain adaptive segmentation"){:height="100%" width="100%"}
 
 Relevant work:
 - Roels, J., Hennies, J., Saeys, Y., Philips, W., & Kreshuk, A. (2019). Domain Adaptive Segmentation in Volume Electron Microscopy Imaging. IEEE International Symposium on Biomedical Imaging. https://doi.org/arXiv:1810.09734v1
@@ -35,6 +35,9 @@ Relevant work:
 
 ## Image restoration
 Image restoration aims at improving the quality of the images by removing noise, blur, etc. This can improve performance of automated analysis techniques in subsequent steps. 
+
+I developed state-of-the-art image restoration algorithms that estimate and exploit modality specific parameters in statistical estimation frameworks. The images below - from left to right - show the ground truth high quality image data, the corrupted (noisy and blurred) data, two state-of-the-art image restoration algorithms (respectively tikhonov and non-local deconvolution) and our proposed algorithm. The resulting images from our algorithm are more suitable for analysis and allow faster image acquisition. 
+![Image restoration](image-restoration.png "Image restoration"){:height="100%" width="100%"}
 
 Relevant work: 
 - Roels, J., Vernaillen, F., Kremer, A., Gonçalves, A., Aelterman, J., Luong, H. Q., Goossens, B., Philips, W., Lippens, S., & Saeys, Y. (2020). An interactive ImageJ plugin for semi-automated image denoising in electron microscopy. Nature Communications, 11(1), 1–13. https://doi.org/10.1038/s41467-020-14529-0
