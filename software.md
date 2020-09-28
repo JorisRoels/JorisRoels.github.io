@@ -18,4 +18,4 @@ DenoisEM is a GPU accelerated, interactive ImageJ plugin that allows for fast an
 
 - [Project page](https://bioimagingcore.be/DenoisEM/)
 - [Github](https://github.com/vibbits/EMDenoising)
-- Reference: Roels, J., Vernaillen, F., Kremer, A., Gonçalves, A., Aelterman, J., Luong, H. Q., Goossens, B., Philips, W., Lippens, S., & Saeys, Y. (2020). An interactive ImageJ plugin for semi-automated image denoising in electron microscopy. Nature Communications, 11(1), 1–13. [https://doi.org/10.1038/s41467-020-14529-0]
+- Reference: Roels, J., Vernaillen, F., Kremer, A., Gonçalves, A., Aelterman, J., Luong, H. Q., Goossens, B., Philips, W., Lippens, S., & Saeys, Y. (2020). An interactive ImageJ plugin for semi-automated image denoising in electron microscopy. Nature Communications, 11(1), 1–13. <https://doi.org/10.1038/s41467-020-14529-0>
