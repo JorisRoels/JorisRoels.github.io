@@ -16,14 +16,19 @@ Image segmentation is the fundamental task of assigning class labels to each pix
 ## Domain adaptation
 In domain adaptation, we consider a (relatively large) labeled source dataset and a target dataset with no or very few label. The goal is to maximize the predictive performance on the target dataset based on all the available labels. 
 
-I developed a new domain adaptive architecture that is able to adapt state-of-the-art encoder-decoder models to alternative target domains. 
-![Domain adaptive segmentation](domain-adaptive segmentation.png "Domain adaptive segmentation")
+I developed a new domain adaptive architecture that is able to adapt state-of-the-art encoder-decoder models to alternative target domains. The image below illustrates the effect of no domain adaptation (left), a state-of-the-art two-stream architecture (middle) and our proposed network (right). 
+![Domain adaptive segmentation](images/domain-adaptive-segmentation.png "Domain adaptive segmentation"){:height="45%" width="45%"}
 
 Relevant work:
 - Roels, J., Hennies, J., Saeys, Y., Philips, W., & Kreshuk, A. (2019). Domain Adaptive Segmentation in Volume Electron Microscopy Imaging. IEEE International Symposium on Biomedical Imaging. https://doi.org/arXiv:1810.09734v1
 
 ## Active learning
 In active learning situations, we assume the availability of an oracle that can provide labeled data. In each iteration, a set of samples is selected and queried to the oracle, after which the predictor is retrained. The goal is to achieve maximum predictive performance with as few queried samples as possible. 
+
+As most active learning methods are designed for image classification, we have adapted the state-of-the-art performing sample selection criteria to image segmentation. The images below show the performance curves of the different proposed active learning methods for segmentation of mitochondria in electron microscopy ([EPFL](https://www.epfl.ch/labs/cvlab/data/data-em/), [MiRA](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6224513/), [VNC](https://github.com/unidesigner/groundtruth-drosophila-vnc/) dataset from left to right). We are able to achieve close to fully supervised performance with just 200 to 300 labeled samples. 
+![Active learning EPFL](images/active-learning-epfl.png "Active learning EPFL"){:height="30%" width="30%"}
+![Active learning MiRA](images/active-learning-mira.png "Active learning MiRA"){:height="30%" width="30%"}
+![Active learning VNC](images/active-learning-vnc.png "Active learning VNC"){:height="30%" width="30%"}
 
 Relevant work: 
 - Roels, J., & Saeys, Y. (2019). Cost-efficient segmentation of electron microscopy images using active learning. BENELEARN Proceedings.
